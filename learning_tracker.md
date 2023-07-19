@@ -23,12 +23,10 @@ Also, as I didn't have a plan, I inefficiently spent time tinkering with some co
 
 
 <!--
-<a name="18-Jul-2023"></a>
 Use in @= register to paste a title for the current day
 "<a name=\"".trim(system('date +"%d-%b-%Y"'))."\"><\/a>"
-### **Tue, 18 Jul, 2023**
 Use in @= register to paste a title for the current day
-"### ".trim(system('date +"%a, %d %b, %Y"'))
+"### ".trim(system('date +"%a, %d %b %Y"'))
 
 ...
 
