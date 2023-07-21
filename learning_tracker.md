@@ -10,6 +10,17 @@ Total hours &ndash; X (clean hours &ndash; x, n %)
 
 </details>
 
+<a name="20-jul-2023"></a>
+### Thu, 20 jul 2023 (+1h; r+9m)
+
+Based on HTDP recipes, I wrote and drafted the following protocols on paper:
+- Coding problem-solving pipeline.
+- Efficient pipeline for studying textbook code examples.
+
+[back](#top)
+
+---
+
 <a name="19-Jul-2023"></a>
 ### Wed, 19 Jul 2023 (+3.5h; r+0.6h)
 
