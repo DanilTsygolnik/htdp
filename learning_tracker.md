@@ -10,6 +10,15 @@ Total hours &ndash; X (clean hours &ndash; x, n %)
 
 </details>
 
+<a name="19-Jul-2023"></a>
+### Wed, 19 Jul 2023 (+3.5h; r+0.6h)
+
+I rapidly revisited pages 16-200, jotting down vital concepts and example references on paper. Here is the [result](https://t.me/DanilTsygolnik_edu_wip/8).
+
+[back](#top)
+
+---
+
 <a name="18-Jul-2023"></a>
 ### Tue, 18 Jul 2023 (+5.7h; r+1.3h)
 
