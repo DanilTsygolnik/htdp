@@ -19,6 +19,10 @@
 ; Natural Float Float -> Float
 ; Given numAtt, fxdPerfCost, fxdPerfCostAtt, calculates how much one performance costs to the owner.
 ; This is a helper function.
+
+(check-expect (calcPerfExpenses 0 10 1) 10)
+(check-expect (calcPerfExpenses 1 10 1) 11)
+
 (define calcPerfExpenses (numAtt, fxdPerfCost, fxdPerfCostAtt)
 ; function body
   )
