@@ -18,8 +18,7 @@
 (check-expect (calcPerfProfit 1 50 20 1) (- (* 1 50) (calcPerfExpenses 1 20 1)))
 
 (define (calcPerfProfit numAtt tPrice fxdPerfCost fxdPerfCostAtt)
-  ; function body stub
-  0)
+  (- (* numAtt tPrice) (calcPerfExpenses numAtt fxdPerfCost fxdPerfCostAtt)))
 
 ; Natural Float Float -> Float
 ; Given numAtt, fxdPerfCost, fxdPerfCostAtt, calculates how much one performance costs to the owner.
