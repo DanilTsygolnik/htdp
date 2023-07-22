@@ -25,4 +25,4 @@
 (check-expect (calcPerfExpenses 1 10 1) 11)
 
 (define (calcPerfExpenses numAtt fxdPerfCost fxdPerfCostAtt)
-  (- fxdPerfCost (* numAtt fxdPerfCostAtt)))
+  (+ fxdPerfCost (* numAtt fxdPerfCostAtt)))
