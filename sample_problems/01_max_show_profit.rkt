@@ -13,6 +13,10 @@
 
 ; Natural Float Float Float -> Float
 ; Given numAtt, tPrice, fxdPerfCost, fxdPerfCostAtt, calculates a profit value of one performance.
+
+(check-expect (calcPerfProfit 0 50 20 1) 0)
+(check-expect (calcPerfProfit 1 50 20 1) (- (* 1 50) (calcPerfExpenses 1 20 1)))
+
 (define (calcPerfProfit numAtt tPrice fxdPerfCost fxdPerfCostAtt)
   ; function body stub
   0)
