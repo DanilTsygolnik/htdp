@@ -9,6 +9,10 @@
 ; sc, car, scWithCar :: Image
 ; **Scene, Car Image, Scene With Car**
 
+#lang htdp/bsl
+(require 2htdp/image)
+(require racket/base)
+
 ; Number Number String Number Number -> Image
 ; Given scHgtPx, scWthPx, carImgPath, carImgHgtPx, carPosX, return a scene with the car:
 ; - scene dimensions (HxW) -- (scHgtPx x scWthPx)
@@ -22,5 +26,10 @@
 ; String Number -> Image
 ; Given carImgPath, carImgHgtPx, return a car image to place at the scene.
 (define (getCarImage carImgPath carImgHgtPx)
-  ; function body stub
-  0)
+  ; racket/base lib is required
+  (define imgPath (string->path carImgPath))
+  ; 2htdp/image lib is required
+  (define carSrcImg (bitmap/file imgPath))
+  (define scaleFactor (/ carImgHgtPx (image-height carSrcImg)))
+  (define carImgScaled (scale scaleFactor carSrcImg))
+  carImgScaled)
