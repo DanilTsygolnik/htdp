@@ -20,8 +20,11 @@
 ; - car image gets resized using carImgHgtPx value
 ; - car's position on scene (x-coordinate) is specified with carPosX value
 (define (getSceneWithCar scHgtPx scWthPx carImgPath carImgHgtPx carPosX)
-  ; function body stub
-  (empty-scene scHgtPx scWthPx))
+  (define sc (empty-scene scWthPx scHgtPx))
+  (define car (getCarImage carImgPath carImgHgtPx))
+  (define carPosY (- scHgtPx carImgHgtPx ))
+  (define scWithCar (place-image/align car carPosX carPosY "left" "top" sc))
+  scWithCar)
 
 ; String Number -> Image
 ; Given carImgPath, carImgHgtPx, return a car image to place at the scene.
