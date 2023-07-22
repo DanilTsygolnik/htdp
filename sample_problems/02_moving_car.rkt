@@ -8,3 +8,19 @@
 ; 
 ; sc, car, scWithCar :: Image
 ; **Scene, Car Image, Scene With Car**
+
+; Number Number String Number Number -> Image
+; Given scHgtPx, scWthPx, carImgPath, carImgHgtPx, carPosX, return a scene with the car:
+; - scene dimensions (HxW) -- (scHgtPx x scWthPx)
+; - car image is stored locally at carImgPath
+; - car image gets resized using carImgHgtPx value
+; - car's position on scene (x-coordinate) is specified with carPosX value
+(define (getSceneWithCar scHgtPx scWthPx carImgPath carImgHgtPx carPosX)
+  ; function body stub
+  (empty-scene scHgtPx scWthPx))
+
+; String Number -> Image
+; Given carImgPath, carImgHgtPx, return a car image to place at the scene.
+(define (getCarImage carImgPath carImgHgtPx)
+  ; function body stub
+  0)
