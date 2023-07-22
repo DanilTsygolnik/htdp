@@ -14,8 +14,8 @@
 ; Natural Float Float Float -> Float
 ; Given numAtt, tPrice, fxdPerfCost, fxdPerfCostAtt, calculates a profit value of one performance.
 (define (calcPerfProfit numAtt tPrice fxdPerfCost fxdPerfCostAtt)
-; function body
-  )
+  ; function body stub
+  0)
 
 ; Natural Float Float -> Float
 ; Given numAtt, fxdPerfCost, fxdPerfCostAtt, calculates how much one performance costs to the owner.
